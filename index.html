@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
     <link rel="stylesheet" href="/fonts/fonts.css" >
-    <link rel="stylesheet" href="/styles/global.css" >
     <link rel="stylesheet" href="/styles/style.css" >
   </head>
   <body>
@@ -14,19 +13,19 @@
         <nav class="header__nav">
          <div class="header__menu">
            <ul class="header__links-list">
-             <li class="header__links-list-item_no-bullit">
-               <a class="header__link">главная</a>
+             <li class="header__links-list_no-bullit">
+               <a class="header__link_active">главная</a>
              </li>
              <li class="header__links-list-item">
-               <a class="header__link_active" href="#0">посмотреть лоты</a>
+               <a class="header__link_no-active" href="#0">посмотреть лоты</a>
              </li>
              <li class="header__links-list-item">
-               <a class="header__link_active" href="=#0">об аукционе</a>
+               <a class="header__link_no-active" href="=#0">об аукционе</a>
             </li>
            </ul>
          </div>
         </nav>
-        <div class="header__logo">
+        <div>
           <a href class ="header__logo">
             <img
             class="header__logo-image"
@@ -35,23 +34,18 @@
             >
           </a>
         </div>
-        <div class="address">
-          <ul class="address__list">
-          <li class="address__list-item_no-bullit">
-            <a href="tel:+70000000">+9 999 555 5555</a>
-          </li>
-          <li class="address__list-item_no-bullit">
-           <a href="mailto:mail@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li class="address__list-item_no-bullit">
-            <span>наб. Принсенграхт 263-265, <br>
-              Амстердам
-            </span>
-           </li>
-          </ul>
-        </div>
+        <address class="address">
+          <p>
+            <a href="tel:+99995555555">+9 999 555 5555</a>
+            </p>
+            <p>
+            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            </p>
+            <p>
+            <span>наб. Принсенграхт 263-265,</span></p>
+            <p><span>Амстердам</span></p>
+        </address>
       </header>
-     <main>
       <div class="cover">
 		<div class="overlay__cover">
 		         <div class="cover__title">
@@ -75,9 +69,6 @@
           </div>
           </div>
             </div>
-          </div>
-        </div>
-      </div>
         <section class="lots">
           <div class="lots__heading">
             <h2>
@@ -87,7 +78,7 @@
           <div>
                 <ul class="lots__card-list">	
                      <li>
-            <div class="card">
+        <div class="card">
                 <div class="card_type_film">
                     <img 
                       src="/images/card-lot-01.jpg"
@@ -99,14 +90,15 @@
                     <span>Фильм режиссёра, который  бросил киношколу
                     </span>
                   </h3>
-                      </div>
+                    </div>  
                         <div class="card__text-film">
                           <article>
                              Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?
                            </article>
                         </div>
-                      </div>
-                    </li>
+                 </div>      
+        </div>  
+              </li>
                       <li>
                        <div class="card_type_book">
                         <img 
@@ -136,7 +128,7 @@
                           >
                       <div class="card__title">
                       <h3>
-                        <span>Картина, которую </br>повторит даже 5-летний</br>сын маминой подруги
+                        <span>Картина, которую <br>повторит даже 5-летний<br>сын маминой подруги
                         </span>
                       </h3>
                       </div>
@@ -152,7 +144,6 @@
           <div class="lots__look-more-link">
               <span>посмотреть больше</span>
                   </div>
-          </div> 
           </section>
           <section class="about">
             <div class="about__background-round">
@@ -180,34 +171,29 @@
               </span>
             </div>
           </section>
-        </main>
      <footer class="footer">
-      <div class="footer__address">
-        <ul class="address__list">
-        <li class="address__list-item_no-bullit">
-          <a href="tel:+70000000">+9 999 555 5555</a>
-        </li>
-        <li class="address__list-item_no-bullit">
-         <a href="mailto:mail@sobaka.ge">info@sobaka.ge</a>
-        </li>
-        <li class="address__list-item_no-bullit">
-          <span class="address__footer">наб. Принсенграхт 263-265, <br>
-            Амстердам
-          </span>
-         </li>
-        </ul>
-</div>
+      <address class="footer__address">
+        <p>
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          </p>
+          <p>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          </p>
+          <p>
+          <span>наб. Принсенграхт 263-265,</span></p>
+          <p> <span>Амстердам</span></p>
+</address>
 <nav class="footer__nav">
        <div class="footer__menu">
          <ul class="footer__links-list">
            <li class="footer__links-list-item_no-bullit">
-             <a class="footer__link">главная</a>
+             <a class="footer__link-active">главная</a>
            </li>
            <li class="footer__links-list-item">
-             <a class="footer__link_active" href="#0">посмотреть лоты</a>
+             <a class="footer__link_no-active" href="#0">посмотреть лоты</a>
            </li>
            <li class="footer__links-list-item">
-             <a class="footer__link_active" href="=#0">об аукционе</a>
+             <a class="footer__link_no-active" href="=#0">об аукционе</a>
           </li>
          </ul>
        </div>

@@ -16,6 +16,7 @@ h1 {
     line-height: 115%;
     letter-spacing: 30px;
     text-transform: uppercase;
+    position: relative;
 }
 
 h2 {
@@ -36,6 +37,10 @@ h3 {
     font-weight: 700;
     text-decoration-line: underline;
     text-transform: uppercase;
+}
+
+p {
+    margin: 0; 
 }
 
 .header { 
@@ -62,9 +67,17 @@ h3 {
     gap: 33px;   
 }
 
-.header__links-list-item_no-bullit {
+.header__links-list_no-bullit {
     list-style: none;
 }
+
+/* .header__link_active {
+
+}
+
+.header__link_no-active {
+
+} */
 
 .header__logo {
     padding: 0px 78px 0px 4px;
@@ -76,18 +89,21 @@ h3 {
 }
 
 .address {
+    max-width: 240px;
     padding-top: 5px;
     padding-right: 14px;
     font-family: Raleway;
+    font-style: normal;
     color: #000;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
+    /* margin: 0;  */
 }
 
-.address__list {
+/* .address__list {
     list-style-type: none;
-}
+} */
 
 .cover {
     background-image: url(/images/cover.jpg);
@@ -96,9 +112,29 @@ h3 {
     background-position: center;
     width: 1480px;
     height: 758px;
+    position: relative;
 }
 
-.overlay__cover {
+.cover:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+ /* .cover:before {
+    position: absolute;
+    width: 1480px;
+    height: 758px;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 1;
+}  */
+
+/* .overlay__cover {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -106,7 +142,7 @@ h3 {
     z-index: 0;
     width: 1480px;
     height: 758px;
-}
+}  */
 
 
 .aligned-text {
@@ -144,16 +180,18 @@ h3 {
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
+    /* position: relative; */
 }
 
 .cover__description-text {
     display: flex;
     align-items: baseline;
-    margin: 655px 76px 65px 450px;
+    /* margin: 655px 76px 65px 450px; */
     word-spacing: 1.1rem;
     white-space: nowrap;
     gap: 80px;
-    z-index: 2;
+    /* z-index: 2; */
+    position: relative;
 }
 
 .cover__description-bet-button {
@@ -194,7 +232,7 @@ h3 {
     padding: 26px 0  30px 64px;
 }
 
-.card_type_film::before {
+.card_type_film:before {
     content: "";
     position: absolute;
     width: 430px;
@@ -207,7 +245,7 @@ h3 {
     padding: 26px 0 30px;
 }
 
-.card_type_book::before {
+.card_type_book:before {
     content: "";
     position: absolute;
     width: 430px;
@@ -220,7 +258,7 @@ h3 {
     padding: 26px 76px 55px 0;
 }
 
-.card_type_picture::before {
+.card_type_picture:before {
     content: "";
     position: absolute;
     width: 430px;
@@ -358,8 +396,15 @@ h3 {
 }
 
 .footer__address {
+    max-width: 240px;
     font-size: 18px;
     line-height: 24.3px;
+    font-style: normal;
+    font-family: Raleway;
+    color: #000;
+    font-style: normal;
+    font-weight: 400; 
+
 }
 
 .footer__menu {
@@ -368,7 +413,7 @@ h3 {
 
 .footer__links-list {
     list-style: none;
-}
+} 
 
 .footer__social-list-item_no-bullit {
     list-style: none;
@@ -379,4 +424,4 @@ h3 {
     width: 100px;
     height: 48px;  
     margin-left: -5px;
-}
+} 
