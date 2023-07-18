@@ -172,18 +172,8 @@ p {
     padding-right: 50px;
 }
 
-.cover__description-bet-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;
-    border: 1px solid #fff;
-    width: 257px;
-    height: 52px;
-    gap: 4px;
-}
-
-.cover__description-button-color {
+.cover__button {
+    text-decoration: none;
     text-align: center;
     font-family: Raleway;
     font-size: 22px;
@@ -193,10 +183,14 @@ p {
     text-transform: uppercase;
     color: #fff;
     cursor: pointer;
-}
-
-.cover__button {
-    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 257px;
+    height: 52px;
+    gap: 4px;
 }
 
 .lots {
