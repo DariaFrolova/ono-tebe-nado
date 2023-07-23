@@ -1,30 +1,28 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
-body {
-  max-width: 1440px;
-  background-color: #FFF;
-  margin: 0;
-  padding: 0;
-}
-
+body,
+h1,
+h2,
+h3,
+h4,
 h5,
 h6,
+p,
 ul,
 ol,
-li,
-blockquote {
-  margin: 0;
+li blockquote {
+    margin: 0 auto;
+    padding: 0;
 }
 
 a {
-  text-decoration: inherit;
+    color: inherit;
 }
 
 img {
-  width: 100%;
+    width: 100%;
 }
-
