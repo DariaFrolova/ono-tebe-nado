@@ -1,6 +1,6 @@
 .page {
     width: 100%;
-    max-width: 100%;
+    max-width: 1440px;
     overflow-x: hidden;
 }
 
@@ -13,7 +13,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    padding: 93px 89px 95px 52px;
+    padding: 93px 49px 95px 52px;
 }
 
 .header__links-list {
@@ -82,7 +82,7 @@
 
 .aligned-text {
     margin-left: 50px;
-    padding-top: 165px;
+    padding-top: 164px;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -90,7 +90,7 @@
 }
 
 .aligned-text_center {
-    padding: 9px 120px 0px 50px;
+    padding: 10px 80px 0px 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -102,7 +102,7 @@
     align-items: baseline;
     justify-content: right;
     gap: 31px;
-    padding: 2px 60px 0px 0px;
+    padding: 2px 20px 0px 0px;
 }
 
 .cover__description {
@@ -115,7 +115,7 @@
     font-style: normal;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 126px 90px 0px 0px;
+    padding: 126px 48px 0px 0px;
     gap: 53px;
 }
 
@@ -150,7 +150,7 @@
 }
 
 .lots {
-    padding: 180px 90px 0px 50px;
+    padding: 180px 50px 0px 50px;
 }
 
 .lots__title {
@@ -288,7 +288,7 @@
     text-transform: uppercase;
     grid-column-start: 2;
     padding-top: 102px;
-    padding-right: 665px;
+    padding-right: 624px;
 }
 
 .about__background-round {
@@ -367,7 +367,7 @@
 .footer__social-list-item {
     display: flex;
     list-style: none;
-    padding-right: 34px;
+    padding-left: 7px;
 }
 
 .footer__social-icon {
