@@ -122,7 +122,7 @@
     padding-top: 134px;
     gap: 80px;
     line-height: 28px;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 .cover__description-text {
@@ -185,7 +185,7 @@
     display: flex;
     justify-content: center;
     gap: 25px;
-    padding-right: 50px;
+    padding-right: 30px;
 }
 
 .card-link {
