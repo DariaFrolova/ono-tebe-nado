@@ -85,6 +85,7 @@
     display: flex;
     flex-direction: column;
     letter-spacing: 30px;
+    padding-top: 165px;
 }
 
 .offset_left {
@@ -92,7 +93,6 @@
 }
 
 .align-text {
-    padding-top: 165px;
     line-height: 115%;
 }
 
