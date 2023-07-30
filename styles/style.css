@@ -1,11 +1,11 @@
 .page {
     margin: 0 auto;
-    /* min-height: 100%; */
     max-width: 1440px;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-family: "Raleway", serif;
     color: #000;
@@ -19,7 +19,6 @@
     display: flex;
     list-style: circle;
     gap: 32px;
-    margin-right: 209px;
 }
 
 .header__links-list-item_no-bullit {
@@ -35,7 +34,7 @@
 .header__logo-image {
     width: 148px;
     height: 105px;
-    margin-right: 355px;
+    margin-right: 150px;
 }
 
 .address {
@@ -256,7 +255,7 @@
 
 .about {
     display: grid;
-    grid-template-columns: 430px 1fr;;
+    grid-template-columns: 430px 1fr;
     grid-template-rows: auto;
     gap: 5px;
     padding-left: 50px;
