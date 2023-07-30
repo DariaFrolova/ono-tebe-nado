@@ -34,18 +34,21 @@
 .header__logo-image {
     width: 148px;
     height: 105px;
-    margin-right: 150px;
+    /* добавлено для исправления макета */
+    margin-right: 129px;
 }
 
 .address {
     display: block;
-    max-width: 240px;
+    max-width: 260px;
     font-family: "Raleway", serif;
     font-style: normal;
     font-size: 18px;
     font-weight: 400;
     line-height: 24.3px;
     text-underline-offset: 4.5px;
+    /* добавлено для исправления макета */
+    padding-left: 20px;
 }
 
 .address__item {
