@@ -362,6 +362,7 @@
     list-style: none;
     width: 240px;
     justify-content: space-between;
+
     /* margin-right: 30px; было 30 стало 50 */
     /* margin-right: 50px; */
     /* padding-right: 50px; */
