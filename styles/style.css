@@ -19,8 +19,6 @@
     display: flex;
     list-style: circle;
     gap: 32px;
-    /* тест для автотеста */
-    margin-right: 209px;
 }
 
 .header__links-list-item_no-bullit {
@@ -36,6 +34,7 @@
 .header__logo-image {
     width: 148px;
     height: 105px;
+    margin-right: 150px;
     /* margin-right: 149px; */
 }
 
@@ -49,7 +48,7 @@
     line-height: 24.3px;
     text-underline-offset: 4.5px;
     /* margin-left: 145px; */
-    margin-left: 355px;
+    /* margin-left: 300px; */
     /* margin-right: 30px; */
 }
 
