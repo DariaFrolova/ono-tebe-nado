@@ -320,7 +320,6 @@
 
 .footer {
     display: flex;
-    padding-right: 50px;
     padding: 180px 50px 90px 50px ;
     justify-content: space-between;
 }
@@ -336,14 +335,7 @@
 }
 
 .footer__address {
-    display: block;
-    max-width: 240px;
-    font-size: 18px;
-    line-height: 24.3px;
-    font-style: normal;
-    font-family: "Raleway", serif;
-    color: #000;
-    font-weight: 400;
+    margin-left: 0px;
     text-underline-offset: 3.5px;  
 }
 
