@@ -118,7 +118,7 @@
 
 .cover__description {
     padding-top: 135px;
-    padding-left: 372px;
+    justify-content: flex-end;
     display: flex;
     align-items: center;
     color: #fff;
@@ -128,6 +128,7 @@
     font-weight: 400;
     text-transform: uppercase;
     line-height: 28px;
+    gap: 78px;
 }
 
 .cover__description-text {
@@ -151,8 +152,7 @@
     background-color: transparent;
     border: 1px solid #fff;
     width: 257px;
-    min-height: 55px;
-    margin-left: 78px;
+    min-height: 55px;  
 }
 
 .lots {
